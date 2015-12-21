@@ -34,7 +34,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script type="application/javascript">
 		$( document ).ready(function() {
 			var dayOffClass = ".calendar-day-" + $("h1:first").text();
-			$(dayOffClass).css("background", "#99FF99");
+			$(dayOffClass).css("color", "red").css("font-size", "x-large");
 		});
 	</script>
 <body>
@@ -47,8 +47,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</h1>
 	<div class="info">
 		<h2>Today is <%= LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_DATE)%>.
-			You can see it marked with pink on the calender</h2>
-		<h2>Your day-off is ${dayOff}. It marked on the calender with green</h2>
+			You can see it marked on the calender</h2>
+		<h2>Your day-off is ${dayOff}. It marked on the calender with big red digits</h2>
 	</div>
 	<div class="calnder">
 		<div class="column_right_grid calender">
