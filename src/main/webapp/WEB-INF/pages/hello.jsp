@@ -137,6 +137,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 </div>
+<a href="<c:url value="/pdf"/>" class="myButton">Get PDF</a>
 <div class="footer">
 	<p>Copyright © Simple Stylish Calender Widget. All rights reserved | Design by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
 </div>
